@@ -1,5 +1,4 @@
-print("Hello Wadu")
+num1= 10
+num1= 20
 
-# This is a comment
-"""This is another comment"""
-'''This is another docstring'''
+print(num1)
