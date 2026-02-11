@@ -36,11 +36,13 @@ def sum(n):
 sum(10)       
 
 # Question five
-def square():
-    number=(input("Enter number"))
-    x=1
-    answer=x*x
-    while x >= number:
-        print("square of {x} is", answer)
-        x+=1
-    square()    
+def square(n):
+    i=1
+    while i<=n:
+        square=i**2
+        print("the square of {i} is", square)
+        i+=1
+n=int(input["Enter a number:"])
+square(n)        
+
+   

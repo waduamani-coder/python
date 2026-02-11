@@ -17,7 +17,7 @@ message("Stephen")
 
 def addition(x ,y):
     sum=x + y
-    print("The sum of the number is", sum)
+    print("The sum of {x} and {y} is", sum)
 
 addition(45 ,30)    
 
